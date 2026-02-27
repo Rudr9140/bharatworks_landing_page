@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import { FaGooglePlay, FaApple } from "react-icons/fa";
 import { MdAndroid } from "react-icons/md";
@@ -38,7 +38,7 @@ const DownloadSection = () => {
             <div className="flex flex-col justify-center items-center gap-4 mb-8">
               <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <a
-                  href="/myapp-worker-v1.apk"
+                  href="/myapp-worker-v2.apk"
                   download
                   className="flex items-center justify-center gap-3 bg-white text-secondary px-8 py-4 rounded-xl font-bold hover:scale-105 transition-transform shadow-xl"
                 >
@@ -52,7 +52,7 @@ const DownloadSection = () => {
                 </a>
 
                 <a
-                  href="/myapp-employer-v1.apk"
+                  href="/myapp-employer-v2.apk"
                   download
                   className="flex items-center justify-center gap-3 bg-white text-secondary px-8 py-4 rounded-xl font-bold hover:scale-105 transition-transform shadow-xl"
                 >
